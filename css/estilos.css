@@ -43,6 +43,7 @@ body {
 
 .hamburguer {
     display: none;
+    z-index: 1;
 }
 
 .menu-navegacion {
@@ -342,7 +343,7 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
     .hamburguer {
         display: block;
         position: fixed;
@@ -417,6 +418,10 @@ input[type=submit]:hover {
 
     .footer-content {
         justify-content: center;
+        flex-wrap: wrap;
+    }
+    .map{
+        width: 100%;
     }
 
     .social-media {
@@ -432,6 +437,21 @@ input[type=submit]:hover {
         text-align: center;
         width: 80%;
         margin-bottom: 40px;
+    }
+    .flex-container{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        text-align: center;
+        align-content: space-between;
+    }
+    .social-contact{
+        flex-flow: column nowrap;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
 }
@@ -510,6 +530,20 @@ input[type=submit]:hover {
         text-align: center;
         width: 95%;
         margin-bottom: 40px;
+    }
+    .flex-container{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        text-align: center;
+        align-content: space-between;
+    }
+    .social-contact{
+        flex-flow: column nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
 }
