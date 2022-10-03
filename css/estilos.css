@@ -52,6 +52,7 @@ body {
     width: 100vw;
     height: 8%;
     padding: 1rem 1.5rem;
+    z-index: 1;
     /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
     /* 02 */
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
