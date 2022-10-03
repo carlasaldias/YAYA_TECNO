@@ -230,6 +230,22 @@ footer {
     align-items: center;
     margin-bottom: 20px;
 }
+
+.messageError{
+    display: none;
+}
+
+.errorLabel{
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.error{
+    border: 2px solid rgb(255, 0, 0) !important;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -297,6 +313,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    outline: none;
 }
 
 input[type=submit] {
