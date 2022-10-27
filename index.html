@@ -107,13 +107,16 @@
     <div class="container-form" id="contacto">
       
       <h2>Formulario de Contacto</h2>
-      <form action="" method="post" id="form">
+      <form action="https://formspree.io/f/myyvnpqz" method="POST" id="form">
         <label for="fname" >Nombre</label> <label id="nameController" class="messageError" >Nombre incorrecto</label>
         <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
 
         <label for="lname">Apellido</label><label id="lnameController" class="messageError" >Apellido incorrecto</label>
         <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
-
+  
+        <label for="lname">Email</label><label id="emailController" class="messageError" >Email incorrecto</label>
+        <input type="text" id="email" name="email" placeholder="Tu email..">
+     
         <label for="country">Pais</label>
         <select id="country" name="country">
           <option value="argentina">Argentina</option>
@@ -124,7 +127,7 @@
         <label for="subject" >Mensaje</label>   <label id="subjectController" class="messageError" >El mensaje debe superar los 5 caracteres</label>
         <textarea id="subject" name="subject" placeholder="Escriba su mensaje aqui.."></textarea>
         
-        <input id="submit" type="submit" value="Submit">
+        <input id="submit" type="submit" value="Enviar">
       </form>
     </div>
   </main>
